@@ -7,7 +7,7 @@
     * `features` (<- `features.txt`)
        - The features come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
        - 561 rows, 2 columns. Column names are `n` and `functions`.  
-	* `activities` <- `activity_labels.txt`
+    * `activities` <- `activity_labels.txt`
        - List of six activities each volunteer performed when the measurements were taken and its labels.
        -  6 rows, 2 columns. Column names are  `class` and `activity`.
     * `subject_test` <- `test/subject_test.txt`   
@@ -19,13 +19,13 @@
     *  `y_test` <- `test/y_test.txt`  
         - Contains test data of activities’ class labels.
         - 2947 rows, 1 columns. Column name is `class`. 
-    *  `subject_train` <- `test/subject_train.txt`
+    *  `subject_train` <- `train/subject_train.txt`
         - Contains train data of volunteer whose training subjects were observed.
         - 7352 rows, 1 column. Column name is `subject`.
-    *  `x_train` <- `test/X_train.txt`
+    *  `x_train` <- `train/X_train.txt`
          - Contains recorded training data for each feature.
          - 7352 rows, 561 columns.
-    *  `y_train` <- `test/y_train.txt` 
+    *  `y_train` <- `train/y_train.txt` 
          - Contains train data of activities’ class labels.
          - 7352 rows, 1 columns. Column name is `class`.
 
